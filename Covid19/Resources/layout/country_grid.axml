@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:minWidth="25px" 
+	android:minHeight="25px" 
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent" 
+	android:id="@+id/tbLayout1" 
+	android:stretchColumns="*">
+	
+    <TableRow 
+		android:id="@+id/tbRow1" 
+		android:layout_span="2"
+		android:layout_width="0dp"
+		android:background="@drawable/cell_shape">
+		
+		<TextView
+		android:id="@+id/txtcdate"
+        android:text="Date"
+		android:gravity="center"
+		android:textColor="#336BFF"
+		android:textSize="21sp"
+		android:padding="5dp"
+		android:layout_weight=".5"
+		android:layout_width="0dp"
+		android:background="@drawable/cell_shape"
+        android:layout_height="wrap_content"/>
+
+	<TextView
+		android:id="@+id/txtccase"
+        android:text="Total Cases"
+		android:gravity="center"
+		android:padding="5dp"
+		android:textColor="#172A5F"
+		android:textSize="21sp"
+		android:layout_weight=".5"
+		android:layout_width="0dp"
+		android:background="@drawable/cell_shape"
+        android:layout_height="wrap_content"/>
+	</TableRow>
+</TableLayout>

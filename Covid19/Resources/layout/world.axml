@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:background="#5CA7F9">
+	<TextView
+		android:id="@+id/txtntry"
+        android:text="Country"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textSize="16sp"
+		android:padding="5dp"
+		android:layout_width="70dp"
+        android:layout_height="wrap_content"/>
+
+	<TextView
+		android:id="@+id/txtot"
+        android:text="Total Cases"
+		android:gravity="center"
+		android:padding="5dp"
+		android:textColor="#fff"
+		android:textSize="16sp"
+		android:layout_width="60dp"
+        android:layout_height="wrap_content"/>
+	
+	<TextView
+		android:id="@+id/txtncase"
+        android:text="New Cases"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textSize="16sp"
+		android:padding="5dp"
+		android:layout_width="60dp"
+        android:layout_height="wrap_content"/>
+	
+	<TextView
+		android:id="@+id/txttdeth"
+        android:text="TotalDeth"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textSize="16sp"
+		android:padding="5dp"
+		android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+	<TextView
+		android:id="@+id/txtndeth"
+        android:text="NewDeth"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textSize="16sp"
+		android:padding="5dp"
+		android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+	<TextView
+		android:id="@+id/txtrec"
+        android:text="Total Recovered"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textSize="16sp"
+		android:padding="5dp"
+		android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+	<TextView
+		android:id="@+id/txtnewrec"
+        android:text="New Recovered"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textSize="16sp"
+		android:padding="5dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+	 <ListView android:id="@+id/mainlistview" 
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"/>
+		</LinearLayout>
+</LinearLayout>

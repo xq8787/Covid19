@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/CronaBg1">
+
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="15dp"
+        android:id="@+id/linear1">
+	<TextView
+            android:text="Select Country"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:textColor="#fff"
+			android:gravity="center"
+			android:textSize="25sp"
+            android:id="@+id/textView1" />
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+		android:layout_margin="15dp"
+        android:layout_height="35dp">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+			android:padding="5dp"
+			android:background="@drawable/cell_shape"
+            android:id="@+id/spSelectCountry" />
+    </LinearLayout>
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear1">
+	     <Button
+            android:text="Search"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/btnsearch"
+			android:background="@drawable/button"
+			android:textColor="#fff"
+			android:textSize="25sp"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_margin="15dp"
+            android:layout_weight="50" />
+
+	</LinearLayout>
+</LinearLayout>
